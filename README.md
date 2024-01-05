@@ -9,7 +9,7 @@ Forked from [Bill-Haku/kawaii-gcc](https://github.com/Bill-Haku/kawaii-gcc).
 ```sh
 git clone https://github.com/leisquid/kawaii-gcc
 cd ./kawaii-gcc
-make
+sudo make
 ```
 
 会在 `/usr/share/locale/zh_CN/LC_MESSAGES/` 生成一份 `gcc.mo`。如果你的 GCC 需要依赖指定版本的 locale 的话，那么请将 `gcc.mo` 重命名为 `gcc-<主版本号>.mo`。
