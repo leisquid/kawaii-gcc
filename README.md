@@ -1,5 +1,7 @@
 # leisquid/kawaii-gcc
 
+![GitHub License](https://img.shields.io/github/license/leisquid/kawaii-gcc)
+
 Forked from [Bill-Haku/kawaii-gcc](https://github.com/Bill-Haku/kawaii-gcc).
 
 ## 省流
