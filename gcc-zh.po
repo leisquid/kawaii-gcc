@@ -1083,6 +1083,16 @@ msgstr "除了 Objective-C 类型 ‘%T’ 别的都抓不到啊 QwQ"
 msgid "GNU Objective C no longer supports traditional compilation"
 msgstr "都什么年代，还让 GNU Objective C 支持传统编译"
 
+msgid "stray %<@%> in program"
+msgstr "你都让 %<@%> 乱跑啦！"
+
+msgid "did you mean %<-%s%>?"
+msgstr "你不会想的是 %<-%s%> 罢？"
+
+#| msgid "%qE undeclared (first use in this function)"
+msgid "%qE requires a %<declare%> directive for use in a %<routine%> function"
+msgstr "%qE 没有声明就想用？"
+
 #: cif-code.def:43
 msgid "caller is not optimized"
 msgstr "调用方未被优化"
@@ -28720,12 +28730,6 @@ msgstr "括入并行"
 msgid "%qE with %<link%> clause used in %<routine%> function"
 msgstr ""
 
-#: gimplify.cc:7763
-#, fuzzy, gcc-internal-format
-#| msgid "%qE undeclared (first use in this function)"
-msgid "%qE requires a %<declare%> directive for use in a %<routine%> function"
-msgstr "%qE未声明(在此函数内第一次使用)"
-
 #: gimplify.cc:7832
 #, fuzzy, gcc-internal-format
 msgid "%qE not specified in enclosing %<target%>"
@@ -36167,12 +36171,6 @@ msgstr "预处理器生成的嵌套 C 头 错误"
 msgid "ignoring %<#pragma %s %s%>"
 msgstr "忽略 #pragma %s %s"
 
-#. ... or not.
-#: c-family/c-lex.cc:590 c-family/c-lex.cc:1318
-#, gcc-internal-format
-msgid "stray %<@%> in program"
-msgstr "程序中有游离的 %<@%>"
-
 #: c-family/c-lex.cc:605
 #, gcc-internal-format
 msgid "stray %qs in program"
@@ -36829,11 +36827,6 @@ msgstr "%<#pragma GCC diagnostic%>后选项缺失"
 #, gcc-internal-format
 msgid "unknown option after %<#pragma GCC diagnostic%> kind"
 msgstr "%<#pragma GCC diagnostic%>后选项未知"
-
-#: c-family/c-pragma.cc:863
-#, gcc-internal-format
-msgid "did you mean %<-%s%>?"
-msgstr ""
 
 #: c-family/c-pragma.cc:870
 #, fuzzy, gcc-internal-format

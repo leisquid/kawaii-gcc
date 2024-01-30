@@ -1118,3 +1118,13 @@ msgstr "除了 Objective-C 类型 ‘%T’ 别的都抓不到啊 QwQ"
 
 msgid "GNU Objective C no longer supports traditional compilation"
 msgstr "都什么年代，还让 GNU Objective C 支持传统编译"
+
+msgid "stray %<@%> in program"
+msgstr "你都让 %<@%> 乱跑啦！"
+
+msgid "did you mean %<-%s%>?"
+msgstr "你不会想的是 %<-%s%> 罢？"
+
+#| msgid "%qE undeclared (first use in this function)"
+msgid "%qE requires a %<declare%> directive for use in a %<routine%> function"
+msgstr "%qE 没有声明就想用？"
